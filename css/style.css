@@ -1,0 +1,46 @@
+.conteudo {
+    margin-top: 5%; 
+    margin: 2%;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 3%;
+}
+
+.imagem {
+    position: relative;
+    float:left;
+    width: 30%;
+    margin: 2%;
+    border-radius: 25px;
+    -webkit-box-shadow: -15px 15px 32px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: -15px 15px 32px 0px rgba(0,0,0,0.62);
+    box-shadow: -15px 15px 32px 0px rgba(0,0,0,0.62);
+}
+
+.texto {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.rodape {
+    height: 40%;
+    background-color: #949494;
+}
+
+.rodape p {
+    text-align: center;
+    font-style: #000;
+    padding: 2%;
+}
+
+.img_cards{
+    -webkit-filter:grayscale(100%);
+}
+.img_cards:hover{
+    -webkit-filter:grayscale(0%);
+    transition: 1s;
+}
